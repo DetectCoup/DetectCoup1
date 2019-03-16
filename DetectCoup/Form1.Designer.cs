@@ -33,13 +33,14 @@
             this.btnDetect = new System.Windows.Forms.Button();
             this.pic = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.yoloItemBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.typeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.confidenceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.xDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.yDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.widthDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.heightDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.yoloItemBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.btnLog = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yoloItemBindingSource)).BeginInit();
@@ -92,10 +93,6 @@
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.Visible = false;
             // 
-            // yoloItemBindingSource
-            // 
-            this.yoloItemBindingSource.DataSource = typeof(Alturos.Yolo.Model.YoloItem);
-            // 
             // typeDataGridViewTextBoxColumn
             // 
             this.typeDataGridViewTextBoxColumn.DataPropertyName = "Type";
@@ -132,11 +129,26 @@
             this.heightDataGridViewTextBoxColumn.HeaderText = "Height";
             this.heightDataGridViewTextBoxColumn.Name = "heightDataGridViewTextBoxColumn";
             // 
+            // yoloItemBindingSource
+            // 
+            this.yoloItemBindingSource.DataSource = typeof(Alturos.Yolo.Model.YoloItem);
+            // 
+            // btnLog
+            // 
+            this.btnLog.Location = new System.Drawing.Point(693, 305);
+            this.btnLog.Name = "btnLog";
+            this.btnLog.Size = new System.Drawing.Size(75, 30);
+            this.btnLog.TabIndex = 4;
+            this.btnLog.Text = "Логи";
+            this.btnLog.UseVisualStyleBackColor = true;
+            this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 524);
+            this.Controls.Add(this.btnLog);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pic);
             this.Controls.Add(this.btnDetect);
@@ -165,6 +177,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn widthDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn heightDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource yoloItemBindingSource;
+        private System.Windows.Forms.Button btnLog;
     }
 }
 

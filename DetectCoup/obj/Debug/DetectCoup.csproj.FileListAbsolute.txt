@@ -19,3 +19,8 @@ D:\DetectCoup\DetectCoup\obj\Debug\DetectCoup.pdb
 D:\DetectCoup\DetectCoup\bin\Debug\yolov2-tiny-voc.cfg
 D:\DetectCoup\DetectCoup\bin\Debug\yolov2-tiny-voc.weights
 D:\DetectCoup\DetectCoup\bin\Debug\voc.names
+D:\DetectCoup\DetectCoup\bin\Debug\FFMpegSharp.dll
+D:\DetectCoup\DetectCoup\bin\Debug\AForge.dll
+D:\DetectCoup\DetectCoup\bin\Debug\AForge.Video.dll
+D:\DetectCoup\DetectCoup\bin\Debug\AForge.xml
+D:\DetectCoup\DetectCoup\bin\Debug\AForge.Video.xml
