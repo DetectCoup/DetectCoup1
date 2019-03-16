@@ -11,11 +11,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Alturos.Yolo.Model;
-using FFMpegSharp;
-using FFMpegSharp.FFMPEG;
-using FFMpegSharp.Extend;
-using AForge;
-using AForge.Video;
 using System.Diagnostics;
 
 
@@ -50,29 +45,7 @@ namespace DetectCoup
 
                     if ((NameType == ("jpg")) || (NameType == ("bmp")) || (NameType == ("png")))
                         pic.Image = Image.FromFile(ofd.FileName);
-                    else
-                     {
-                        FFMpeg encoder = new FFMpeg();
 
-                        string inputFile = "D:/YandexDisk/Малленом/nexus_project/Составы_сцепки/S.Day.0610.8vX2/sort_20181025061007_1.avi";
-                        FileInfo output = new FileInfo("D:/DetectCoup/1.png");
-
-                        var video = VideoInfo.FromPath(inputFile);
-
-                        new FFMpeg()
-                            .Snapshot(
-                                video,
-                                output,
-                                new Size(200, 400),
-                                TimeSpan.FromMinutes(0)
-                            );
-
-
-
-
-
-
-                    }
                 }
             }
         }
@@ -130,7 +103,7 @@ namespace DetectCoup
                                 pic.Image = pic.Image;
                                 using (StreamWriter w = File.AppendText("log.txt"))
                                 {
-                                    Log($"Обнаружена полусцепка: {NameF} | X: {x} | Y: {y} | width: {width} | height: {height}", w);
+                                    Log($"Обнаружена полусцепка: {NameF} | X: {x} | Y: {y} | width: {width} | height: {height} | Confidence: {item.Confidence}", w);
                                 }
                             }
                             if (item.Type == "coup2")
@@ -141,7 +114,7 @@ namespace DetectCoup
                                 pic.Image = pic.Image;
                                 using (StreamWriter w = File.AppendText("log.txt"))
                                 {
-                                    Log($"Обнаружена сцепка: {NameF} | X: {x} | Y: {y} | width: {width} | height: {height}", w);
+                                    Log($"Обнаружена сцепка: {NameF} | X: {x} | Y: {y} | width: {width} | height: {height} | Confidence: {item.Confidence}", w);
                                 }
 
                             }
