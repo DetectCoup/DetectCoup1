@@ -45,7 +45,6 @@ namespace DetectCoup
 
                     if ((NameType == ("jpg")) || (NameType == ("bmp")) || (NameType == ("png")))
                         pic.Image = Image.FromFile(ofd.FileName);
-
                 }
             }
         }
