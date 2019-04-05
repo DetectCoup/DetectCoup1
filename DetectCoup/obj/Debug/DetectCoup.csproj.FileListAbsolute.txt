@@ -45,3 +45,43 @@ C:\Users\alexa\Documents\GitHub\DetectCoup1\DetectCoup\obj\Debug\DetectCoup.cspr
 C:\Users\alexa\Documents\GitHub\DetectCoup1\DetectCoup\obj\Debug\DetectCoup.csproj.CopyComplete
 C:\Users\alexa\Documents\GitHub\DetectCoup1\DetectCoup\obj\Debug\DetectCoup.exe
 C:\Users\alexa\Documents\GitHub\DetectCoup1\DetectCoup\obj\Debug\DetectCoup.pdb
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\x64\opencv_world340.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\x64\yolo_cpp_dll_cpu.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\x64\yolo_cpp_dll_gpu.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\x64\pthreadVC2.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\x64\pthreadGC2.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\x64\msvcr100.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\voc.names
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\dll\x86\opencv_ffmpeg401.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\dll\x64\opencv_ffmpeg401_64.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\yolov2-tiny-voc.cfg
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\yolov2-tiny-voc.weights
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\DetectCoup.exe.config
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\DetectCoup.exe
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\DetectCoup.pdb
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\Alturos.Yolo.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\OpenCvSharp.Blob.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\OpenCvSharp.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\OpenCvSharp.UserInterface.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\OpenCvSharp.pdb
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\OpenCvSharp.xml
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\OpenCvSharp.Blob.pdb
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\OpenCvSharp.Blob.xml
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\OpenCvSharp.Extensions.pdb
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\OpenCvSharp.Extensions.xml
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\OpenCvSharp.UserInterface.pdb
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\OpenCvSharp.UserInterface.xml
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\obj\Debug\DetectCoup.csprojAssemblyReference.cache
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\obj\Debug\DetectCoup.Properties.Resources.resources
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\obj\Debug\DetectCoup.csproj.GenerateResource.cache
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\obj\Debug\DetectCoup.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\obj\Debug\DetectCoup.csproj.CopyComplete
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\obj\Debug\DetectCoup.exe
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\obj\Debug\DetectCoup.pdb
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\Newtonsoft.Json.dll
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\bin\Debug\Newtonsoft.Json.xml
+C:\Users\alexa\Desktop\Новая папка\DetectCoup1\DetectCoup\obj\Debug\DetectCoup.Form1.resources

@@ -41,6 +41,8 @@
             this.heightDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.yoloItemBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.btnLog = new System.Windows.Forms.Button();
+            this.btnStop = new System.Windows.Forms.Button();
+            this.btnJSON = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yoloItemBindingSource)).BeginInit();
@@ -88,11 +90,11 @@
             this.widthDataGridViewTextBoxColumn,
             this.heightDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.yoloItemBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(142, 362);
+            this.dataGridView1.Location = new System.Drawing.Point(31, 498);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(646, 130);
+            this.dataGridView1.RowHeadersWidth = 37;
+            this.dataGridView1.Size = new System.Drawing.Size(640, 102);
             this.dataGridView1.TabIndex = 3;
-            this.dataGridView1.Visible = false;
             // 
             // typeDataGridViewTextBoxColumn
             // 
@@ -136,19 +138,41 @@
             // 
             // btnLog
             // 
-            this.btnLog.Location = new System.Drawing.Point(693, 305);
+            this.btnLog.Location = new System.Drawing.Point(693, 558);
             this.btnLog.Name = "btnLog";
-            this.btnLog.Size = new System.Drawing.Size(75, 30);
+            this.btnLog.Size = new System.Drawing.Size(85, 42);
             this.btnLog.TabIndex = 4;
             this.btnLog.Text = "Логи";
             this.btnLog.UseVisualStyleBackColor = true;
             this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
             // 
+            // btnStop
+            // 
+            this.btnStop.Location = new System.Drawing.Point(693, 140);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(85, 48);
+            this.btnStop.TabIndex = 5;
+            this.btnStop.Text = "Стоп";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // 
+            // btnJSON
+            // 
+            this.btnJSON.Location = new System.Drawing.Point(693, 498);
+            this.btnJSON.Name = "btnJSON";
+            this.btnJSON.Size = new System.Drawing.Size(85, 43);
+            this.btnJSON.TabIndex = 6;
+            this.btnJSON.Text = "JSON";
+            this.btnJSON.UseVisualStyleBackColor = true;
+            this.btnJSON.Click += new System.EventHandler(this.btnJSON_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 524);
+            this.ClientSize = new System.Drawing.Size(800, 606);
+            this.Controls.Add(this.btnJSON);
+            this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnLog);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pic);
@@ -179,6 +203,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn heightDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource yoloItemBindingSource;
         private System.Windows.Forms.Button btnLog;
+        private System.Windows.Forms.Button btnStop;
+        private System.Windows.Forms.Button btnJSON;
     }
 }
 
